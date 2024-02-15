@@ -31,7 +31,7 @@ export const Product = forwardRef<TouchableOpacity, ProductProps>(
 
         <View className="flex-1 ml-3">
           <View className="flex-row items-center">
-            <Text className="text-quaternary font-subtitle text-base flex-1">
+            <Text className="text-slate100 font-subtitle text-base flex-1">
               {data.title}
             </Text>
 

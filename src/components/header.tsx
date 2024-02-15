@@ -10,7 +10,7 @@ type HeaderProps = {
 
 export function Header({ title, cartQuantityItems = 0 }: HeaderProps) {
   return (
-    <View className="flex-row items-center border-b border-tertiary pb-5 mx-5">
+    <View className="flex-row items-center border-b border-slate700 pb-5 mx-5">
       <View className="flex-1">
         <Image source={require("@/assets/logo.png")} className="h-6 w-32" />
         <Text className="text-white text-xl font-heading mt-2">{title}</Text>
@@ -19,7 +19,7 @@ export function Header({ title, cartQuantityItems = 0 }: HeaderProps) {
       {cartQuantityItems > 0 && (
         <Link href="/cart" asChild>
           <TouchableOpacity className="relative" activeOpacity={0.7}>
-            <View className="bg-lime w-4 h-4 rounded-full items-center justify-center top-2 z-10 -right-3.5">
+            <View className="bg-lime300 w-4 h-4 rounded-full items-center justify-center top-2 z-10 -right-3.5">
               <Text className="text-primary font-bold text-xs">
                 {cartQuantityItems}
               </Text>

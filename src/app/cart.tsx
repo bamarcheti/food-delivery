@@ -72,7 +72,7 @@ export default function Cart() {
         <ScrollView>
           <View className="p-5 flex-1">
             {cartStore.products.length > 0 ? (
-              <View className="border-b border-tertiary">
+              <View className="border-b border-slate700">
                 {cartStore.products.map((product) => (
                   <Product
                     key={product.id}
