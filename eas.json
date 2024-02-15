@@ -1,0 +1,18 @@
+{
+  "build": {
+    "iosEmu": {
+      "ios": {
+        "simulator": true
+      }
+    },
+    "androidEmu": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "androidProd": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
