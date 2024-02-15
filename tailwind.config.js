@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lime: "#a3e635",
+        primary: "#0f172a",
+        secondary: "#94a3b8",
+        tertiary: "#334155",
+        quaternary: "#f1f5f9",
+        slate: "#1e293b",
+        default: "#a3e635",
+        lime: "#bef264",
       },
       fontFamily: {
         heading: "Inter_600SemiBold",

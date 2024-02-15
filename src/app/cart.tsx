@@ -72,7 +72,7 @@ export default function Cart() {
         <ScrollView>
           <View className="p-5 flex-1">
             {cartStore.products.length > 0 ? (
-              <View className="border-b border-slate-700">
+              <View className="border-b border-tertiary">
                 {cartStore.products.map((product) => (
                   <Product
                     key={product.id}
@@ -82,14 +82,14 @@ export default function Cart() {
                 ))}
               </View>
             ) : (
-              <Text className="font-body text-slate-400 text-center my-8">
+              <Text className="font-body text-secondary text-center my-8">
                 Seu carrinho está vazio.
               </Text>
             )}
 
             <View className="flex-row gap-2 items-center mt-5 mb-4">
               <Text className="text-white text-xl font-subtitle">Total:</Text>
-              <Text className="text-lime-400 text-2xl font-heading">
+              <Text className="text-default text-2xl font-heading">
                 {total}
               </Text>
             </View>
