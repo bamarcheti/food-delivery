@@ -9,6 +9,6 @@
 > - Execute `eas login` para fazer o login no expo.
 > - Execute `eas build -p android --profile androidEmu` para realizar o build no expo.
 > - Acesse o link informado.
-> - Baixe o arquivo .apk .
+> - Baixe o arquivo `.apk` na página builds do projeto.
 > - Faça o passo a passo do link **`https://appetize.io/upload`**.
 > - Acesse o link enviado no email para visualizar o projeto em produção.
