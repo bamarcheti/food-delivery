@@ -1,8 +1,6 @@
 # **NLW Expert (React Native)**
 
-<!-- [![preview](./.github/preview.mp4)](./.github/preview.mp4) -->
-
-<!-- [🔗 Clique aqui para acessar o vídeo](./.github/preview.mp4) -->
+[![](./.github/preview.gif)](./.github/preview.gif)
 
 Projeto construído durante Imersão da NLW Expert de React Native da Rocketseat com o objetivo de desenvolver um aplicativo de pedidos de comidas. Sendo possível escolher um produto, ver o carrinho e finalizar o carrinho adicionando o seu endereço e já redirecionando o pedido para o WhatsApp do restaurante.
 
