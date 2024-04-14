@@ -4,7 +4,7 @@
 
 Projeto construído durante Imersão da NLW Expert de React Native da Rocketseat com o objetivo de desenvolver um aplicativo de pedidos de comidas. Sendo possível escolher um produto, ver o carrinho e finalizar o carrinho adicionando o seu endereço e já redirecionando o pedido para o WhatsApp do restaurante.
 
-[🔗 Clique aqui para acessar](https://my-resume-bamarcheti.vercel.app/)
+[🔗 Clique aqui para acessar](https://appetize.io/app/io2tzb3ntq3kydnzb64jjs5zwe?device=pixel7&osVersion=13.0)
 
 ## **🛠 Tecnologias**
 
